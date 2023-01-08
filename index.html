@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Flex cards | Stranger Things</title>
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
+   <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+   <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+   <link rel="stylesheet" href="styles.css">
+   <!--
+   <style>
+       .st {
+            width: 625px;
+            margin: 6rem auto 3rem auto;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 8rem;
+            font-family: 'ITC Benguiat W01';
+            font-weight: 800;
+            color: #1c0502;
+            letter-spacing: -2px;
+            animation: popShadow 5s infinite;
+        }
+
+        @keyframes popShadow {
+            0% {
+                text-shadow: 0 0 0 black;
+            }
+
+            50% {
+                text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+                    0.05rem -0.05rem 1px #ed2b12,
+                    -0.05rem 0.05rem 1px #ed2b12,
+                    0.05rem 0.05rem 1px #ed2b12,
+                    0 0 15px #630100,
+                    0 0 20px #450100;
+            }
+
+            100% {
+                text-shadow: 0 0 0 black;
+            }
+        }
+
+        .st p {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .st-bound {
+            box-shadow: -0.05rem -0.05rem 2px #ed2b12,
+                0.05rem -0.05rem 2px #ed2b12,
+                -0.05rem 0.05rem 2px #ed2b12,
+                0.05rem 0.05rem 2px #ed2b12;
+            height: 5px;
+        }
+
+        .st-bound-full {
+            width: 100%;
+            margin: auto;
+            margin-bottom: -1.2rem;
+            max-width: 612px;
+            margin-left: 5px;
+        }
+
+        .st-bound-mini {
+            margin-top: 0.5rem;
+        }
+
+        .st-bound-left {
+            float: left;
+            width: 99px;
+            position: relative;
+            left: 5px;
+        }
+
+        .st-bound-right {
+            float: right;
+            width: 103px;
+            left: 0.3rem;
+            position: relative;
+        }
+
+        .st-bottom {
+            clear: both;
+            top: -3.75rem;
+            position: relative;
+            left: .6rem;
+            letter-spacing: 2px;
+        }
+
+        .st-drop {
+            line-height: 0;
+            position: relative;
+            top: 1.55rem;
+        }
+
+        .st-stranger-s {
+            font-size: 10.5rem;
+            letter-spacing: -8px;
+        }
+
+        .st-stranger-t {
+            letter-spacing: 0;
+        }
+
+        .st-stranger-n {
+            letter-spacing: -5px;
+        }
+
+        .st-stranger-g {
+            letter-spacing: 0;
+        }
+
+        .st-stranger-r-2 {
+            font-size: 10.5rem;
+            right: 0.2rem;
+        }
+
+        .st-things-t {
+            font-size: 104%;
+            letter-spacing: 2px;
+        }
+
+        .st-things-n {
+            letter-spacing: -5px;
+        }
+
+        .st-things-g {
+            letter-spacing: -3px;
+        }
+   </style>-->
+
+</head>
+
+<body>
+    <!--
+    <div class="st">
+        <div class="st-top">
+            <div class="st-bound st-bound-full"></div>
+            <p>
+                <span class="st-drop st-stranger-s">S</span><span class="st-stranger-t">t</span><span
+                    class="st-stranger-r">r</span><span class="st-stranger-a">a</span><span
+                    class="st-stranger-n">n</span><span class="st-stranger-g">g</span><span
+                    class="st-stranger-e">e</span><span class="st-drop st-stranger-r-2">r</span>
+            </p>
+            <div class="st-bound st-bound-mini st-bound-left"></div>
+            <div class="st-bound st-bound-mini st-bound-right"></div>
+        </div>
+        <div class="st-bottom">
+            <p><span class="st-things-t">T</span><span class="st-things-h">h</span><span
+                    class="st-things-i">i</span><span class="st-things-n">n</span><span
+                    class="st-things-g">g</span><span class="st-things-s">s</span>
+            </p>
+        </div>
+    </div> -->
+    <!--Content-->
+    
+   <div class="options">
+      <div class="option active" style="--optionBackground:url(./images/ic-bg-vecna.png);">
+         <div class="shadow"></div>
+         <div class="label">
+            <div class="icon">
+               <img src="./images/ic-vecna.png" />
+            </div>
+            <div class="info">
+               <div class="main">Vecna</div>
+               <div class="sub">"It will be over soon."</div>
+            </div>
+         </div>
+      </div>
+      <div class="option" style="--optionBackground:url(./images/ic-bg-eleven.png);">
+         <div class="shadow"></div>
+         <div class="label">
+            <div class="icon">
+               <img src="./images/ic-eleven.png" />
+            </div>
+            <div class="info">
+               <div class="main">Eleven</div>
+               <div class="sub">"My hero is my father."</div>
+            </div>
+         </div>
+      </div>
+      <div class="option" style="--optionBackground:url(./images/ic-bg-hopper.png);">
+         <div class="shadow"></div>
+         <div class="label">
+            <div class="icon">
+               <img src="./images/ic-hopper.png" />
+            </div>
+            <div class="info">
+               <div class="main">Hopper</div>
+               <div class="sub">"Mornings are for coffee and contemplation."</div>
+            </div>
+         </div>
+      </div>
+      <div class="option" style="--optionBackground:url(./images/ic-bg-eddie.png);">
+         <div class="shadow"></div>
+         <div class="label">
+            <div class="icon">
+               <img src="./images/ic-eddie.png" />
+            </div>
+            <div class="info">
+               <div class="main">Eddie</div>
+               <div class="sub">"Welcome to Hellfire."</div>
+            </div>
+         </div>
+      </div>
+      <div class="option" style="--optionBackground:url(./images/ic-bg-dustin.png);">
+         <div class="shadow"></div>
+         <div class="label">
+            <div class="icon">
+               <img src="./images/ic-dustin.png" />
+            </div>
+            <div class="info">
+               <div class="main">Dustin</div>
+               <div class="sub">"Badda Badda BOOM!"</div>
+            </div>
+         </div>
+      </div>
+    <div class="option" style="--optionBackground:url(./images/ic-bg-steve.jpeg);">
+        <div class="shadow"></div>
+        <div class="label">
+           <div class="icon">
+              <img src="./images/ic-dustin.png" />
+           </div>
+           <div class="info">
+              <div class="main">Steve</div>
+              <div class="sub">"Hello, Ladies..."</div>
+           </div>
+        </div>
+    </div>
+    <!--LUCAS
+    <div class="option" style="--optionBackground:url(./images/ic-bg-lucas.webp);">
+        <div class="shadow"></div>
+        <div class="label">
+           <div class="icon">
+              <img src="./images/ic-dustin.png"/>
+           </div>
+           <div class="info">
+              <div class="main">Lucas</div>
+              <div class="sub">"Eat S<sup>***</sup>!"</div>
+           </div>
+        </div>
+     </div>-->
+     <!--MAX
+     <div class="option" style="--optionBackground:url(./images/ic-bg-max.jpeg);">
+        <div class="shadow"></div>
+        <div class="label">
+           <div class="icon">
+              <img src="./images/ic-dustin.png" />
+           </div>
+           <div class="info">
+              <div class="main">Max</div>
+              <div class="sub">"Hey Stalker"</div>
+           </div>
+        </div>
+     </div>-->
+     <div class="option" style="--optionBackground:url(./images/ic-bg-will.jpeg);">
+        <div class="shadow"></div>
+        <div class="label">
+           <div class="icon">
+              <img src="./images/ic-bg-will.jpeg">
+           </div>
+           <div class="info">
+              <div class="main">Will</div>
+              <div class="sub">"Welcome to Hellfire."</div>
+           </div>
+        </div>
+     </div>
+   </div>
+   <!--Scripts-->
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+   <script src="script.js"></script>
+
+</body>
+
+</html>
